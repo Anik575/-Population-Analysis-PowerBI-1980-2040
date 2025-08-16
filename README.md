@@ -4,7 +4,7 @@ Power BI project analyzing population data (1980–2040). The project demonstrat
 
 ---
 
-## 📌 Project Overview  
+## Project Overview  
 This repository contains my Power BI project analyzing **population data from 1980 to 2040**.  
 
 The project had two main objectives:  
@@ -13,20 +13,20 @@ The project had two main objectives:
 
 ---
 
-## ⚙️ Methodology & Implementation  
+## Methodology & Implementation  
 
-### 🔹 Data Modeling  
+### Data Modeling  
 - Built relationships across tables.  
 - Designed a **Star Schema** for better structure and performance.  
 
-### 🔹 DAX (Data Analysis Expressions)  
+### DAX (Data Analysis Expressions)  
 Custom measures created included:  
 - `SUMX` → row-by-row aggregations  
 - `CALCULATE` → context-based filtering  
 - `FILTER` → subset refinements  
 - Concatenated measures → enhanced labels  
 
-### 🔹 Power Query (Data Transformation)  
+### Power Query (Data Transformation)  
 - Cleaned data (removed duplicates, handled missing values).  
 - Standardized columns for consistency.  
 - Applied **M language** for:  
@@ -34,14 +34,14 @@ Custom measures created included:
   - **Pivoting/Unpivoting** data  
   - Creating **custom columns**  
 
-### 🔹 Visualization & Dashboarding  
+### Visualization & Dashboarding  
 Built a **4-page interactive dashboard** using:  
 - **Column & Line Charts** → Population growth trends  
 - **TreeMap** → Category-wise distribution  
 - **Slicers** → Year, region, and category filters  
 - **Cards (KPIs)** → Population totals, gender ratios  
 
-### 🔹 Performance Optimization  
+### Performance Optimization  
 - Removed unused columns/tables to minimize file size.  
 - Optimized **DAX measures** for efficiency.  
 
@@ -49,22 +49,23 @@ Built a **4-page interactive dashboard** using:
 
 ## 📊 Key Findings  
 
-✅ **Population Growth Trend (1980–2040):**  
+ **Population Growth Trend (1980–2040):**  
 - Strong upward trend across most regions.  
 
-✅ **Regional Variations:**  
+ **Regional Variations:**  
 - Some regions grew faster, suggesting migration and urbanization.  
 
-✅ **Gender Distribution:**  
+ **Gender Distribution:**  
 - Male-to-female ratios fluctuated by category and year.  
 
-✅ **Category Contributions:**  
+**Category Contributions:**  
 - Clear shifts in population distribution across different demographic categories.  
 
-## 🚀 Conclusion  
+## Conclusion  
 This project highlights the **full Power BI pipeline** — from raw data cleaning, modeling, and transformation to optimized visualization.  
 
 The analysis provides valuable insights into population dynamics over six decades (1980–2040), useful for **researchers, policymakers, and decision-makers**.  
 
 ##Report View
-https://github.com/Anik575/-Population-Analysis-PowerBI-1980-2040/blob/main/population_dashboard.JPG
+![population_dashboard](https://github.com/user-attachments/assets/825b8441-3977-4071-8fbd-568e2fb10499)
+
